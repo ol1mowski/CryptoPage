@@ -9,9 +9,7 @@ function Home() {
         <h1 className={s.container__ctaInfo__title}>Crypto Charts</h1>
         <p className={s.container__ctaInfo__desc}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-          voluptatibus quos velit libero enim nam consectetur facere tempore
-          aliquid? Quaerat tempore aperiam blanditiis magnam quidem alias cum
-          fuga delectus iusto.
+          voluptatibus quos velit 
         </p>
         <button className={s.container__ctaInfo__btn}>Check It Now</button>
       </section>

@@ -26,6 +26,13 @@ $menu-font-size-desktop: 1.3rem;
   color: $dark-color;
 }
 
+@mixin fonts($weight) {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: $weight;
+  font-style: normal;
+}
+
 @mixin container() {
   background-color: $white-color;
   margin: 0 120px;

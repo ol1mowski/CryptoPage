@@ -1,7 +1,30 @@
-@import '../../style/index.scss';
+@import "../../style/index.scss";
 
 .container {
-    background-color: $white-color;
-    height: 100vh;
+  background-color: $white-color;
+  height: 100vh;
+  @include d-flex-column;
+  &__ctaInfo {
+    width: 90%;
     @include d-flex-column;
+    gap: 3vh;
+    align-items: flex-start;
+    &__title {
+      font-size: 2.5rem;
+      @include fonts(700);
+    }
+    &__desc {
+      font-size: 1rem;
+      @include fonts(300);
+      line-height: 1.4rem;
+    }
+    &__btn {
+        border: 2px solid $blue-color;
+        padding: .7rem 1rem;
+        border-radius: .4rem;
+    }
+  }
+  &__imageSide {
+    display: none;
+  }
 }
