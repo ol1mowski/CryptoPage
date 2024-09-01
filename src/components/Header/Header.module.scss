@@ -3,7 +3,8 @@
 .headerContainer {
     // @include box-shadow;
     @include d-flex-row;
+    background-color: $white-color;
     border-radius: $border-radious;
     justify-content: space-around;
-    margin-top: 2rem;
+    padding-top: 2rem;
 }
