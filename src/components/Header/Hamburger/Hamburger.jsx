@@ -5,11 +5,10 @@ import s from "./Hamburger.module.scss";
 import MobileMenu from "./MobileMenu";
 
 function Hamburger() {
-
-    const [clickState, setClickState] = useState(false)
+  const [clickState, setClickState] = useState(false);
 
   const clickToggleHandler = () => {
-    setClickState(prev => !prev)
+    setClickState((prev) => !prev);
   };
 
   return (
@@ -20,8 +19,10 @@ function Hamburger() {
         src={hamburger}
         alt="hamburger icons"
       />
-      
-      { clickState ? <MobileMenu clickToggleHandler={clickToggleHandler}/> : null }
+
+      {clickState ? (
+        <MobileMenu clickToggleHandler={clickToggleHandler} />
+      ) : null}
     </nav>
   );
 }
