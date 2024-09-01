@@ -1,0 +1,14 @@
+@import "../../../style/index.scss";
+
+.menuList {
+  display: none;
+  @media screen and (min-width: $small-desktop) {
+    text-align: center;
+    @include d-flex-row;
+    gap: 5vw;
+    &__menuItem {
+      @include menuItem();
+      font-size: $menu-font-size-desktop;
+    }
+  }
+}

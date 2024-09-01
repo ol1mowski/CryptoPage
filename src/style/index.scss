@@ -1,0 +1,50 @@
+// color
+$blue-color: #8ddef5;
+$white-color: #fafbfd;
+$dark-color: #2d2e2d;
+
+//border
+
+$border-radious: 0.7rem;
+
+//sizes
+
+$hamnurger-icon: 30px;
+
+$menu-font-size-desktop: 1.3rem;
+
+//mixins
+@mixin box-shadow() {
+  -webkit-box-shadow: -2px 6px 8px -9px rgba(66, 68, 90, 1);
+  -moz-box-shadow: -2px 6px 8px -9px rgba(66, 68, 90, 1);
+  box-shadow: -2px 6px 8px -9px rgba(66, 68, 90, 1);
+}
+@mixin menuItem() {
+  font-size: 1.7rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  color: $dark-color;
+}
+
+@mixin container() {
+  background-color: $white-color;
+  margin: 0 120px;
+}
+
+@mixin d-flex-column() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin d-flex-row() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+//breakepoints
+
+$small-desktop: 1024px;

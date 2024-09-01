@@ -1,0 +1,9 @@
+@import '../../style/index.scss';
+
+.headerContainer {
+    // @include box-shadow;
+    @include d-flex-row;
+    border-radius: $border-radious;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
