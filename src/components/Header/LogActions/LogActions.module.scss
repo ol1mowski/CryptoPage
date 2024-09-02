@@ -8,6 +8,7 @@
     &__item {
       @include menuItem;
       font-size: $menu-font-size-desktop;
+      font-weight: 500;
     }
     &__item_login {
       border: 2px solid $blue-color;

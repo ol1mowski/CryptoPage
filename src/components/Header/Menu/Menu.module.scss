@@ -9,6 +9,7 @@
     &__menuItem {
       @include menuItem();
       font-size: $menu-font-size-desktop;
+      font-weight: 500;
     }
   }
 }
