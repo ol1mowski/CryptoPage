@@ -4,6 +4,8 @@ import btc from "../../assets/btc.svg";
 import eth from "../../assets/eth.svg";
 import ltc from "../../assets/ltc.svg";
 import doge from "../../assets/doge.svg";
+
+
 import { useEffect, useState } from "react";
 
 function PriceSection() {
