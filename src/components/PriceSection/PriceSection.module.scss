@@ -28,6 +28,8 @@
       padding: 1.5rem;
       border-radius: $border-radious;
       gap: 5vw;
+      transition: box-shadow,scale,cursor, .7s;
+      will-change: box-shadow,scale,cursor;
       @media screen and (min-width: $tablet) {
         gap: 2vw;
       }
@@ -39,6 +41,11 @@
         font-weight: 700;
         color: $dark-color;
       }
+    }
+    &__iconBox:hover {
+        @include box-shadow;
+        cursor: pointer;
+        scale: 1.1;
     }
   }
 }
