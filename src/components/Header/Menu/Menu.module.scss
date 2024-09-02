@@ -10,6 +10,11 @@
       @include menuItem();
       font-size: $menu-font-size-desktop;
       font-weight: 500;
+      transition: scale .7s;
+      will-change: scale;
+    }
+    &__menuItem:hover {
+      scale: 1.2;
     }
   }
 }
