@@ -24,7 +24,7 @@ function PriceSection() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH,LTC,DOGE&tsyms=USD"
+          "Twój Endpoit"
         );
         if (!response.ok) {
           throw new Error("Error");
